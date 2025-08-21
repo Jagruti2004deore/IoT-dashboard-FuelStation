@@ -2,7 +2,7 @@ import axios from "axios";
 
 // ✅ Use environment variable (falls back to localhost:4000 if not set)
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:4000/api",
+  baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000/api",
 });
 
 // Fetch stations list
